@@ -36,7 +36,7 @@ def predict(input_data):
     return prediction[0]  # Return the single prediction value
 
 # Streamlit app code
-st.title("Cancer Recurrence Prediction")
+st.title("Prostate Cancer Recurrence Prediction")
 
 st.markdown("""
 This app predicts if cancer may occur again based on user-provided data. 
